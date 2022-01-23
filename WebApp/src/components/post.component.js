@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import CompanyList from "./company-list.component";
-
 const Post = (props) => {
   const [yes, setYes] = useState(false);
   const [no, setNo] = useState(false);
